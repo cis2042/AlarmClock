@@ -1,7 +1,18 @@
 {
-  "name": "my-v0-project",
-  "version": "0.1.0",
-  "private": true,
+  "name": "smart-alarm-clock",
+  "version": "1.0.0",
+  "description": "A modern, feature-rich alarm clock web application with character voices, smart messages, and comprehensive alarm management",
+  "keywords": ["alarm", "clock", "pwa", "nextjs", "react", "typescript", "web-audio", "notifications", "smart-alarm"],
+  "author": "cis2042",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cis2042/AlarmClock.git"
+  },
+  "homepage": "https://github.com/cis2042/AlarmClock",
+  "bugs": {
+    "url": "https://github.com/cis2042/AlarmClock/issues"
+  },
   "scripts": {
     "build": "next build",
     "dev": "next dev",
