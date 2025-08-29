@@ -47,7 +47,7 @@ export default function AlarmClockHome() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-4 sm:p-6 md:p-8 bg-background">
+    <div className="flex flex-col items-center justify-center min-h-screen p-4 sm:p-6 md:p-8 bg-gradient-to-br from-pink-100 via-rose-50 to-purple-100 dark:from-pink-950 dark:via-rose-900 dark:to-purple-950 animate-gradient-shift">
       <div className="w-full max-w-md mx-auto">
         <header className="text-center mb-8">
           <div className="flex items-center justify-center gap-2 text-muted-foreground">
