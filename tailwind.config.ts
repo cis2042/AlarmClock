@@ -83,11 +83,72 @@ const config: Config = {
   				to: {
   					height: '0'
   				}
+  			},
+  			'gradientShift': {
+  				'0%': {
+  					'background-position': '0% 50%'
+  				},
+  				'50%': {
+  					'background-position': '100% 50%'
+  				},
+  				'100%': {
+  					'background-position': '0% 50%'
+  				}
+  			},
+  			'pulseGlow': {
+  				'0%': {
+  					'text-shadow': '0 0 20px rgba(255, 255, 255, 0.5), 0 0 40px rgba(255, 255, 255, 0.3), 0 0 60px rgba(255, 255, 255, 0.2)'
+  				},
+  				'100%': {
+  					'text-shadow': '0 0 30px rgba(255, 255, 255, 0.8), 0 0 60px rgba(255, 255, 255, 0.5), 0 0 90px rgba(255, 255, 255, 0.3)'
+  				}
+  			},
+  			'float': {
+  				'0%, 100%': {
+  					transform: 'translateY(0px)'
+  				},
+  				'50%': {
+  					transform: 'translateY(-10px)'
+  				}
+  			},
+  			'shimmer': {
+  				'0%': {
+  					'background-position': '-200% 0'
+  				},
+  				'100%': {
+  					'background-position': '200% 0'
+  				}
+  			},
+  			'fadeInUp': {
+  				'0%': {
+  					opacity: '0',
+  					transform: 'translateY(30px)'
+  				},
+  				'100%': {
+  					opacity: '1',
+  					transform: 'translateY(0)'
+  				}
+  			},
+  			'scaleIn': {
+  				'0%': {
+  					opacity: '0',
+  					transform: 'scale(0.9)'
+  				},
+  				'100%': {
+  					opacity: '1',
+  					transform: 'scale(1)'
+  				}
   			}
   		},
   		animation: {
   			'accordion-down': 'accordion-down 0.2s ease-out',
-  			'accordion-up': 'accordion-up 0.2s ease-out'
+  			'accordion-up': 'accordion-up 0.2s ease-out',
+  			'gradient-shift': 'gradientShift 15s ease infinite',
+  			'pulse-glow': 'pulseGlow 3s ease-in-out infinite alternate',
+  			'float': 'float 6s ease-in-out infinite',
+  			'shimmer': 'shimmer 2s infinite',
+  			'fade-in-up': 'fadeInUp 0.6s ease-out',
+  			'scale-in': 'scaleIn 0.4s ease-out'
   		}
   	}
   },
